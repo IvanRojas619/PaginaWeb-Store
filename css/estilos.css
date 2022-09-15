@@ -1,0 +1,143 @@
+
+html {/*Box sixing paul*/
+    box-sizing: border-box;
+    height: 100%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+   
+  }
+
+
+
+.header {
+padding: 20PX;
+    display: flex ;
+    justify-content: center;
+}
+
+h1{
+
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #ffffff;
+}
+
+body{
+
+    background-color: blueviolet;
+}
+
+img{
+
+    max-width: 100%;
+}
+
+.contenedor-camisas{
+    max-width: 800px;
+}
+
+.contenedor-camisas{
+    max-width: 800px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+   margin-top: 20px;
+   
+   margin-bottom: 20px;
+   
+   
+   
+   
+   }
+
+
+.camisa p{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.camisa span{
+
+    color:#ffce00;
+    font-size: 45px;
+
+}
+
+.camisa{
+width: 33.3%;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.contenedor-camisas:first-of-type camisa{
+
+    margin-left: 30px;
+}
+
+.boton{
+
+    
+    text-decoration: none;
+
+    background-color: #ffce00;
+    color:purple;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+        
+    padding: 10px 40px;
+
+    
+   
+}
+
+.boton:hover{
+
+    background-color: #dfb409;
+}
+
+.imagen-producto{
+
+    border: 10px solid rgba(128, 1, 195, .45);
+    transition: background-color .3s ease-in-out;
+}
+
+.imagen-producto:hover{
+  
+    border: 10px solid rgba(180, 71, 238, 0.45);
+}
+
+
+.camisa p{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width:768px) {
+
+    .camisa{
+        width: 50%;
+    }
+    
+}
+
+
+.hero{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor{
+
+    display: flex;
+    justify-content: center;
+
+    }
